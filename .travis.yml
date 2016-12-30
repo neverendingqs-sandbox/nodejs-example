@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '6'
+deploy:
+  provider: npm
+  email: sandbox@neverendingqs.com
+  api_key:
+    secure: Ou78ukSyjbede4W6IyvRG2LDcteiGa2QCstyO1TkgpdM92dQ5hQBp6yX4monoDBeIRtkbPFacHcQkVcTF3vCC3feQb3cum0KgInOw/Ng2IVU8fSHgLQUv1HQ2Z34xpLnDscqHLvFKDw859RupLwjBI9M1aPA5CJNv5V7vY+pph+/a1cGnQeVRnzYrB856S97GNHJGcsmu0ZCgBJkQzuhKZdNihrQfx0pfFAiXZ/Q+kBKFQAWTI3PYB40moSGsHT212yiYU8XEhjcUWcQqnlsl4yTRue32lqBDldf1/x7VUfu13Q22i9qcn9xr/KEzspJX08LXBPIaXcWHL7acpI3ImCLweaoWiEs246IyumWD1sQCPVOGeSpMirNUooFq3ASY5bk67gnyuhk4wWpyVdLitPSmWHS2EOivS+9dUfqkJkHhBbSnMi4/YjiNbIHACOLpy6FlGFu8bcOhLr85pUd8INVhhwgetWOoue9PS44jn2ntKoyuJ/2kijkRMCFX+jNpxwzQziHdszqOAeqTN8SNX0IuG2GA7l9wRzg0rYoZcodUKApATCqokuvdWB4Rb7elkzn9snhtBDdmHBqwnQGI3hh6umMT3i3XDAz6pCMgFNEC+duicBk+gx939AoydAXRfgI4ezxlt6ea6ovswsZRqrqsnJBbQwYWJCVH4XTKcI=
+  on:
+    tags: true
+    repo: neverendingqs-sandbox/nodejs-lib-example

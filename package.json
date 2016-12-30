@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-lib-example",
+  "version": "1.0.0",
+  "description": "A Node.js library example.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jshint . && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neverendingqs-sandbox/nodejs-example.git"
+  },
+  "keywords": [
+    "nodejs",
+    "lib",
+    "travis-ci",
+    "npm"
+  ],
+  "author": "neverendingqs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neverendingqs-sandbox/nodejs-example/issues"
+  },
+  "homepage": "https://github.com/neverendingqs-sandbox/nodejs-example#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.2.0"
+  }
+}
