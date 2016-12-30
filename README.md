@@ -1,5 +1,6 @@
 [![npm version](https://badge.fury.io/js/nodejs-lib-example.svg)](https://badge.fury.io/js/nodejs-lib-example)
 [![Build Status](https://travis-ci.org/neverendingqs-sandbox/nodejs-lib-example.svg?branch=master)](https://travis-ci.org/neverendingqs-sandbox/nodejs-lib-example)
+[![Coverage Status](https://coveralls.io/repos/github/neverendingqs-sandbox/nodejs-lib-example/badge.svg)](https://coveralls.io/github/neverendingqs-sandbox/nodejs-lib-example)
 
 # nodejs-example
 
