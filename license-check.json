@@ -1,0 +1,29 @@
+{
+  "allowed": [
+    "Apache-2.0",
+    "BSD",
+    "BSD*",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "BSD-4-Clause",
+    "ISC",
+    "MIT",
+    "MIT*",
+    "MIT/X11",
+    "WTFPL"
+  ],
+  "exceptions": {
+    "amdefine@1.0.1": "BSD-3-Clause OR MIT",
+    "entities@1.0.0": "BSD-like",
+    "entities@1.1.1": "BSD-like",
+    "jshint@2.9.4": "(MIT AND JSON)",
+    "json-schema@0.2.3": [
+      "AFLv2.1",
+      "BSD"
+    ],
+    "log-driver@1.2.5": "UNKNOWN",
+    "spdx-expression-parse@1.0.4": "(MIT AND CC-BY-3.0)",
+    "spdx-license-ids@1.2.2": "Unlicense",
+    "tweetnacl@0.14.5": "Unlicense"
+  }
+}

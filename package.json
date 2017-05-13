@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
-    "test": "jshint . && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+    "license-check": "node ci/license-check.js",
+    "test": "jshint . && npm run license-check && istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "coveralls": "^2.11.15",
     "istanbul": "^0.4.5",
     "jshint": "^2.9.4",
+    "license-checker": "^9.0.3",
     "mocha": "^3.2.0",
     "mocha-lcov-reporter": "^1.2.0"
   }
