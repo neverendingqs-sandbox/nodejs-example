@@ -19,7 +19,6 @@ jobs:
           always-auth: true
           node-version: 14.x
           registry-url: https://registry.npmjs.org
-      - run: yarn install
       - name: Setup Git
         run: |
           git config user.name github-actions[bot]
